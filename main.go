@@ -7,6 +7,6 @@ import (
 )
 
 func main() {
-	fmt.Printf("Random string: %s\n", algo.RandStr(20))
-	fmt.Printf("Random string: %s\n", auth.RandStr(20))
+	fmt.Printf("Pull first: %s\n", algo.RandStr(20))
+	fmt.Printf("Pull second: %s\n", auth.RandStr(20))
 }
